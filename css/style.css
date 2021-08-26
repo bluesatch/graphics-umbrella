@@ -1,3 +1,6 @@
+*{
+    scroll-behavior: smooth;
+}
 .icon {
     display: inline-block;
     width: 1em;
@@ -9,7 +12,11 @@
 .section{
     border-bottom: 3px dashed rgb(193, 193, 193);
 }
+.clear{
+    clear:both;
+}
 .button{
+    border-radius: 1%;
     color: white;
     background-color: #a0c93f;
     transition: color 1.5s ease;
@@ -33,20 +40,141 @@
 }
 
 /* main */
+.section2{
+    padding: 25px
+}
 .section2 .icon{
     font-size: 45px;
 }
 .bubble{
-    padding-top:10px;
+    display:flex;
+    justify-content: center;
+    margin:0 auto;
+    padding-top: 10px;
     width:95px;
     height: 95px;
     border: 1px solid rgb(193, 193, 193);
-    border-radius: 50px;
+    border-radius: 50%;
 }
 .but-ton{
-    padding-top: 10px;
+    padding-top: 13px;
     text-align: center;
     width: 75px;
     height:75px;
-    border-radius: 50px;
+    border-radius: 50%;
+}
+/* header */
+header{
+    padding: 15px 0;
+}
+.top-nav{
+    line-height: 6;
+}
+.top-nav-i{
+    font-weight: 700;
+    color:black;
+    transition:color 1.5s ease;
+}
+.top-nav-i:hover{
+    color: #683fc9;
+}
+.main-header{
+    background: #a0c93f;
+}
+.main-h-text{
+    color:white;
+    font-size: 30px;
+    padding-top: 45px;
+}
+/* endheader */
+
+/* main */
+.section2{
+    margin: 15px 0;
+}
+.section3{
+    padding:25px 0;
+}
+.recent{
+    top: 748px;
+    background: white;
+}
+.image-r{
+    padding: 15px 0;
+}
+.back-top{
+    position: relative;
+    color:white;
+    background-color:#a0c93f;
+    font-size: 10px;
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+}
+.icon-arrow-up{
+    position:absolute;
+    left:7px;
+}
+.section3{
+    margin:15px 0;
+}
+.section4{
+    margin:15px 0;
+    padding: 15px 0;
+}
+.ads{
+    
+    background-color:white;
+    bottom: 190px;
+    left: 35px;
+}
+
+/* end main */
+
+/* footer */
+.date{
+    line-height: 1.5;
+    border-bottom: 1px dashed rgb(193, 193, 193);
+}
+.contacts-head{
+    text-align:left;
+    padding:0;
+}
+.contacts{
+    display:flex;
+    line-height: 1;
+    padding: 15px 0;
+}
+.submit-button{
+    color: white;
+    background-color: #a0c93f;
+    float:right;
+    margin-right: 28px;
+}
+
+.about-link{
+    color:rgb(193, 193, 193);
+    transition:color 1.5s ease;
+}
+.about-link:hover{
+    color:#683fc9;
+}
+.c-icon{
+    color:rgb(193, 193, 193);
+}
+.form-text{
+    border:none;
+    border-bottom:2px solid rgb(193, 193, 193);
+    background-color:whitesmoke;
+
+    border-radius: 1%;
+    margin: 5px 0;
+}
+.form-text::placeholder{
+    color: black;
+}
+.colophon{
+    background-color: #202020;
+    color:white;
 }
