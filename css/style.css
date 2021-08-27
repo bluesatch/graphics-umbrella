@@ -189,6 +189,14 @@ header{
 /* endfooter */
 
 /* media quiries */ 
+@media(max-width){
+    .footer-sub{
+        font-size: 35px;
+    }
+    .fol-sub{
+        font-size: 45px;
+    }
+}
 @media(max-width: 768px){
     .logo-img{
         padding-top: 15px;
@@ -212,11 +220,15 @@ header{
         bottom:155px;
     }
     .submit-button{
-        margin-right: 0;
+        margin-right: 29px;
     }
     .bub-text{
         font-size:45px;
     }
+    .archives{
+        display:none;
+    }
+    
 }
 @media(max-width: 576px){
     .top-header{
@@ -272,8 +284,20 @@ header{
     }
     .submit-button{
         font-size: 10px;
+        margin:0;
     }
     .about-link{
+        font-size: 10px;
+    }
+    .colophon{
+        font-size:10px;
+    }
+    .foot-n-i{
+        font-size: 10px;
+        padding: 10px;
+    }
+    .colo-text{
+        line-height: 3.25;
         font-size: 10px;
     }
 }
