@@ -9,9 +9,6 @@
     stroke: currentColor;
     fill: currentColor;
 }
-.section{
-    border-bottom: 3px dashed rgb(193, 193, 193);
-}
 .clear{
     clear:both;
 }
@@ -38,7 +35,9 @@
 .green{
     color: #a0c93f;
 }
-
+.section{
+    border-bottom: 3px dashed rgb(193, 193, 193);
+}
 /* main */
 .section2{
     padding: 25px
@@ -82,6 +81,7 @@ header{
     font-weight: 700;
     color:black;
     transition:color 1.5s ease;
+    padding: 0 3px;
 }
 .top-nav-i:hover{
     color: #683fc9;
@@ -104,7 +104,7 @@ header{
     padding:25px 0;
 }
 .recent{
-    top: 748px;
+    top: 742px;
     background: white;
 }
 .image-r{
@@ -188,8 +188,7 @@ header{
 }
 /* endfooter */
 
-/* media quiries */
-
+/* media quiries */ 
 @media(max-width: 768px){
     .logo-img{
         padding-top: 15px;
@@ -207,7 +206,7 @@ header{
         line-height: 4;
     }
     .recent{
-        top:1125px;
+        top:1213px;
     }
     .ads{
         bottom:155px;
@@ -215,5 +214,66 @@ header{
     .submit-button{
         margin-right: 0;
     }
+    .bub-text{
+        font-size:45px;
+    }
 }
-@media(max-width: 582)
+@media(max-width: 576px){
+    .top-header{
+        font-size:small;
+    }
+    .top-nav-i{
+        font-size:x-small;
+        font-weight: 200;
+    }
+    .main-header{
+        display:none;
+    }
+    .section1, .section2, .section4{
+        border-bottom: 3px dashed rgb(193, 193, 193);
+    }
+    .recent{
+        display:none;
+    }
+    .section3{
+        display:none;
+    }
+    .ads{
+        font-size: 20px;
+        bottom: 135px;
+    }
+    .bubble{
+        width:65px;
+        height:65px;
+    }
+    .but-ton{
+        position:relative;
+        width:45px;
+        height:45px;
+    }
+    .but-ton .icon{
+        position:absolute;
+        font-size: 25px;
+        top:8.5px;
+        right:8.5px;
+    }
+    .bub-text{
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .footer-sub{
+        font-size:15px;
+    }
+    footer p{
+        font-size:12px;
+    }
+    .archives{
+        display:none;
+    }
+    .submit-button{
+        font-size: 10px;
+    }
+    .about-link{
+        font-size: 10px;
+    }
+}
